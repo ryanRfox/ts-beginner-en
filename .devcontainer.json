@@ -12,8 +12,8 @@
         }
     },
     "postCreateCommand": "pipx install git+https://github.com/joe-p/algokit-cli@tealscript_template",
-    "postStartCommand": "bash install-dev-tools.sh 4001 public",
-    "postStartCommand": "bash install-dev-tools.sh change_port_visibility.sh 4002 public",
-    "postStartCommand": "bash install-dev-tools.sh change_port_visibility.sh 8980 public",
-    "postStartCommand": "algokit localnet start"
+    "postStartCommand": "algokit localnet start",
+    "postStartCommand": "bash change_port_visibility.sh 4001 public",
+    "postStartCommand": "bash change_port_visibility.sh 4002 public",
+    "postStartCommand": "bash change_port_visibility.sh 8980 public"
 }
