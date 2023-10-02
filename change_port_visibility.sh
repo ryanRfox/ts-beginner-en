@@ -1,5 +1,3 @@
-change_port_visibility() {
-  local port=$1
-  local visibility=$2
-  gh codespace ports visibility $port:$visibility -c $CODESPACE_NAME
-}
+#!/bin/bash
+
+gh codespace ports visibility $1:$2 -c $CODESPACE_NAME
