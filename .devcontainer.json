@@ -11,7 +11,7 @@
           "label": "indexer"
         }
     },
-    "postCreateCommand": "pipx install git+https://github.com/joe-p/algokit-cli@tealscript_template",
+    "postCreateCommand": "pipx install git+https://github.com/joe-p/algokit-cli@codespaces",
     "postStartCommand": "algokit localnet start",
     "postStartCommand": "bash change_port_visibility.sh"
 }
